@@ -1,0 +1,125 @@
+{
+  "insights": {
+    "rows_raw": 110527,
+    "rows_clean": 110521,
+    "overall_no_show_rate": 20.2,
+    "by_wait": {
+      "Same day": 4.6,
+      "1-7": 24.1,
+      "8-14": 30.5,
+      "15-30": 32.6,
+      "31-60": 34.2,
+      "60+": 28.4
+    },
+    "by_age": {
+      "0-12": 20.5,
+      "13-18": 26.1,
+      "19-30": 24.7,
+      "31-45": 21.4,
+      "46-60": 17.8,
+      "61-75": 14.9,
+      "76+": 16.1
+    },
+    "by_prior_no_shows": {
+      "None": 19.2,
+      "1": 25.1,
+      "2+": 32.1
+    },
+    "by_weekday": {
+      "Monday": 20.6,
+      "Tuesday": 20.1,
+      "Wednesday": 19.7,
+      "Thursday": 19.3,
+      "Friday": 21.2,
+      "Saturday": 23.1
+    },
+    "sms_by_wait_band": {
+      "3-7": {
+        "0": 26.6,
+        "1": 23.8
+      },
+      "8-14": {
+        "0": 33.8,
+        "1": 28.1
+      },
+      "15-30": {
+        "0": 36.9,
+        "1": 29.8
+      },
+      "31+": {
+        "0": 37.5,
+        "1": 30.2
+      }
+    },
+    "sms_raw_unadjusted": {
+      "0": 16.7,
+      "1": 27.6
+    },
+    "conditions": {
+      "scholarship": {
+        "0": 19.8,
+        "1": 23.7
+      },
+      "hypertension": {
+        "0": 20.9,
+        "1": 17.3
+      },
+      "diabetes": {
+        "0": 20.4,
+        "1": 18.0
+      },
+      "alcoholism": {
+        "0": 20.2,
+        "1": 20.1
+      },
+      "handicap": {
+        "0": 20.2,
+        "1": 17.8,
+        "2": 20.2,
+        "3": 23.1,
+        "4": 33.3
+      }
+    }
+  },
+  "metrics": {
+    "baseline_always_show_accuracy": 0.798,
+    "Logistic Regression": {
+      "roc_auc": 0.677,
+      "pr_auc": 0.319,
+      "recall_no_show": 0.583,
+      "precision_no_show": 0.322,
+      "accuracy": 0.668
+    },
+    "Decision Tree": {
+      "roc_auc": 0.727,
+      "pr_auc": 0.358,
+      "recall_no_show": 0.808,
+      "precision_no_show": 0.303,
+      "accuracy": 0.586
+    },
+    "Random Forest": {
+      "roc_auc": 0.736,
+      "pr_auc": 0.379,
+      "recall_no_show": 0.818,
+      "precision_no_show": 0.31,
+      "accuracy": 0.595
+    },
+    "best_model": "Random Forest",
+    "capture": {
+      "top_10pct": 21.7,
+      "top_20pct": 37.8,
+      "top_30pct": 53.8,
+      "top_40pct": 66.1
+    },
+    "top_features": {
+      "waiting_days": 0.711,
+      "age": 0.109,
+      "sms_received": 0.055,
+      "prior_no_shows": 0.039,
+      "prior_appointments": 0.032,
+      "gender_M": 0.009,
+      "hypertension": 0.009,
+      "appt_weekday_Monday": 0.006
+    }
+  }
+}
