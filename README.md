@@ -4,7 +4,7 @@
 
 Data: 110,521 appointments from public clinics in Vitória, Brazil (Kaggle, 2016) · Python, pandas, scikit-learn, matplotlib
 
-📊 **Presentation:** [No-Show-Analysis.pptx](No-Show-Analysis.pptx), a 10-slide walkthrough of the business problem, EDA, model and recommendations
+📊 **Presentation:** [view the slides (PDF)](No-Show-Analysis.pdf), a 10-slide walkthrough of the business problem, EDA, model and recommendations · [download PowerPoint](No-Show-Analysis.pptx)
 
 ---
 
@@ -118,7 +118,8 @@ no_show_analysis.py     cleaning, EDA charts, models, business metrics
 KaggleV2-May-2016.csv   raw data (110,527 appointments)
 charts/                 figures used above
 results/metrics.json    all numbers quoted in this README
-No-Show-Analysis.pptx   slide deck version of this analysis
+No-Show-Analysis.pdf    slide deck (view in browser)
+No-Show-Analysis.pptx   slide deck (editable PowerPoint)
 ```
 
 ---
